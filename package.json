@@ -1,0 +1,43 @@
+{
+  "name": "react-dynamic-theme",
+  "version": "1.0.0",
+  "description": "react-dynamic-theme is a lightweight theme management library for React",
+  "main": "index.js",
+  "author": "ilhamprt5@gmail.com",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc",
+    "lint": "yarn eslint src --ext .ts,.tsx",
+    "test": "jest",
+    "publish:npm": "tsc && npm publish"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "react-theme",
+    "hook",
+    "provider"
+  ],
+  "peerDependencies": {
+    "react": ">=16.3.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.12.0",
+    "@testing-library/react": "^11.2.7",
+    "@types/jest": "^26.0.23",
+    "@types/node": "^17.0.41",
+    "@types/react": "^16.8.8",
+    "@typescript-eslint/eslint-plugin": "^5.27.1",
+    "@typescript-eslint/parser": "^5.27.1",
+    "eslint": "^8.17.0",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "jest": "^26.6.3",
+    "prettier": "^2.6.2",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "ts-jest": "^26.5.6",
+    "typescript": "^4.7.3"
+  }
+}
