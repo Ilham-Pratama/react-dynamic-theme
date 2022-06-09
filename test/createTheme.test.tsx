@@ -67,7 +67,7 @@ describe("createTheme", () => {
 
   const assertComponent = (
     component: RenderResult<
-      typeof import("c:/Open-source/react-dynamic-theme/node_modules/@testing-library/dom/types/queries"),
+      typeof import("@testing-library/dom/types/queries"),
       HTMLElement
     >
   ) => {
