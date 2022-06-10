@@ -94,8 +94,7 @@ yarn add react-dynamic-theme
 Here is an example on how to setup your theme with TypeScript.
 
 ```tsx
-import { createTheme } from "react-dynamic-theme";
-import { DefaultThemeStyle } from "react-dynamic-theme/type";
+import { createTheme, DefaultThemeStyle } from "react-dynamic-theme";
 
 interface CustomStyle extends DefaultThemeStyle {
   borderRadius: number | string;
@@ -114,12 +113,14 @@ const { ThemeProvider, ThemeConsumer, useTheme } = createTheme<
   initialTheme: "normal",
   themes: {
     normal: {
-      background: "white",
-      text: "black"
+      background: "#F4F4F4",
+      text: "#1C1C1C",
+      borderRadius: 6
     },
     dark: {
-      background: "black",
-      text: "white"
+      background: "#1C1C1C",
+      text: "#F4F4F4",
+      borderRadius: 8
     }
   }
 });
