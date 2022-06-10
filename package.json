@@ -1,6 +1,6 @@
 {
   "name": "react-dynamic-theme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "react-dynamic-theme is a lightweight theme management library for React",
   "main": "index.js",
   "author": "ilhamprt5@gmail.com",
