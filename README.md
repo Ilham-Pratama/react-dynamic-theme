@@ -91,8 +91,6 @@ yarn add react-dynamic-theme
 **react-dynamic-theme** already has a built-in TypeScript support. 
 Here is an example on how to setup your theme with TypeScript.
 
-`./theme.ts`
-
 ```tsx
 import { createTheme } from "react-dynamic-theme";
 import { DefaultThemeStyle } from "react-dynamic-theme/type";
