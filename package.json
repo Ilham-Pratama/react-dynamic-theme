@@ -2,10 +2,15 @@
   "name": "react-dynamic-theme",
   "version": "1.0.1",
   "description": "react-dynamic-theme is a lightweight theme management library for React",
-  "main": "index.js",
-  "author": "ilhamprt5@gmail.com",
+  "repository": "https://github.com/Ilham-Pratama/react-dynamic-theme.git",
+  "author": "Ilham Pratama <ilhamprt5@gmail.com> (https://github.com/Ilham-Pratama)",
   "license": "MIT",
   "private": false,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
   "scripts": {
     "build": "tsc",
     "lint": "yarn eslint src --ext .ts,.tsx",

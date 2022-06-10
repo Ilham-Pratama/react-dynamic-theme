@@ -1,5 +1,7 @@
 # react-dynamic-theme
 
+![npm](https://img.shields.io/npm/v/react-dynamic-theme) ![CI](https://github.com/Ilham-Pratama/react-dynamic-theme/actions/workflows/main.yml/badge.svg) ![LICENSE](https://img.shields.io/npm/l/react-dynamic-theme.svg)
+
 **react-dynamic-theme** is a lightweight theme management library for React.
 This library helps you achieve theming for your react app with zero hassle in no time.
 
