@@ -1,8 +1,7 @@
 import "@testing-library/jest-dom";
 import React from "react";
 import { fireEvent, render, RenderResult } from "@testing-library/react";
-import { createTheme } from "../src";
-import { DefaultThemeStyle } from "../src/type";
+import { createTheme, DefaultThemeStyle } from "../src";
 
 describe("createTheme", () => {
   const { ThemeProvider, ThemeConsumer, useTheme } = createTheme<
